@@ -1,0 +1,92 @@
+th, td {
+    text-align: right;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    border: 1pt solid rgb(190, 190, 190);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10pt;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1pt solid rgb(200, 200, 200);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#nodes {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10pt;
+}
+
+#dice-tray {
+    
+}
+
+ul, #nodes {
+    list-style-type: none;
+}
+
+#nodes {
+    margin: 20pt;
+}
+
+.caret {
+    cursor: pointer;
+    user-select: none;
+}
+
+.caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+    transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+    display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+    display: block;
+}
+
+.build-pool-button {
+    padding: 0;
+    margin-left: 8pt;
+    margin-right: 8pt;
+}

@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "lib": ["dom", "ES2017"],
+        "target": "ES2017"
+    },
+    "files": [
+        "scripts.ts"
+    ]
+}
